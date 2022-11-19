@@ -47,39 +47,36 @@
 #     S = (a + b)/2
 #     print("Среднее арифмитическое = " + str(S))
 # begin_8(int(input("Введите число:")), int(input("Введите число:")))
-"""
-import math
-def begin_9(a, b):
-    if a and b > 0:
-        S = math.sqrt(a * b)
-        print("Корень = " + str(S))
-    else:
-        print("Введите неотрицвтельные числа")
-begin_9(float(input("Введите число:")), float(input("Введите число:")))
-"""
 
-"""
-def begin_10(a, b):
-    if a and b > 0:
-        print("Сумму = " + str(a**2 + b **2))
-        print("Разность = " + str(a**2 - b **2))
-        print("Произведение = " + str(a**2 * b **2))
-        print("Частное = " + str(a**2 / b **2))
-    else:
-        print("Введите число больше нуля")
-begin_10(float(input("Введите число:")), float(input("Введите число:")))
-"""
-"""
-def begin_11(a, b):
-    if a or b > 0:
-        print("Сумму = " + str(abs(a) + abs(b)))
-        print("Разность = " + str(abs(a) - abs(b)))
-        print("Произведение = " + str(abs(a) * abs(b)))
-        print("Частное = " + str(abs(a) / abs(b)))
-    else:
-        print("Введите число больше нуля")
-begin_11(float(input("Введите число:")), float(input("Введите число:")))
-"""
+# import math
+# def begin_9(a, b):
+#     if a > 0 and b > 0:
+#         S = math.sqrt(a * b)
+#         print("Корень = " + str(S))
+#     else:
+#         print("Введите неотрицвтельные числа")
+# begin_9(float(input("Введите число:")), float(input("Введите число:")))
+
+# def begin_10(a, b):
+#     if a > 0 and b > 0:
+#         print("Сумму = " + str(a**2 + b **2))
+#         print("Разность = " + str(a**2 - b **2))
+#         print("Произведение = " + str(a**2 * b **2))
+#         print("Частное = " + str(a**2 / b **2))
+#     else:
+#         print("Введите число больше нуля")
+# begin_10(float(input("Введите число:")), float(input("Введите число:")))
+
+# def begin_11(a, b):
+#     if a > 0 and b > 0:
+#         print("Сумму = " + str(abs(a) + abs(b)))
+#         print("Разность = " + str(abs(a) - abs(b)))
+#         print("Произведение = " + str(abs(a) * abs(b)))
+#         print("Частное = " + str(abs(a) / abs(b)))
+#     else:
+#         print("Введите число больше нуля")
+# begin_11(float(input("Введите число:")), float(input("Введите число:")))
+
 
 # def begin_12(a, b):
 #     c = math.sqrt(a**2 + b**2)
